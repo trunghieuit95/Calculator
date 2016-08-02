@@ -5,7 +5,7 @@ package com.example.vtree.calculator;
  */
 public class Division implements Operation {
     @Override
-    public void perfomedMath(float a, float b) {
-        System.out.println(a/b);
+    public float perfomedMath(float a, float b) {
+        return a/b;
     }
 }
