@@ -255,6 +255,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btnAdd:
+                // Kiêm tra nội dung textView Input
+                if (tvOparand.getText() == "Loi") {
+                    break;
+                }
                 // Nếu người dùng nhập 1 phép toán kiểm tra biến logicButton
                 if (logicButton == "operation") {
                     // Nếu logicButton = operation không thực hiện gì
@@ -267,6 +271,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btnSubtract:
+                // Kiêm tra nội dung textView Input
+                if (tvOparand.getText() == "Loi") {
+                    break;
+                }
                 // Nếu người dùng nhập 1 phép toán kiểm tra biến logicButton
                 if (logicButton == "operation") {
                     // Nếu logicButton = operation không thực hiện gì
@@ -279,6 +287,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btnMultiply:
+                // Kiêm tra nội dung textView Input
+                if (tvOparand.getText() == "Loi") {
+                    break;
+                }
                 // Nếu người dùng nhập 1 phép toán kiểm tra biến logicButton
                 if (logicButton == "operation") {
                     // Nếu logicButton = operation không thực hiện gì
@@ -291,6 +303,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btnDivide:
+                // Kiêm tra nội dung textView Input
+                if (tvOparand.getText() == "Loi") {
+                    break;
+                }
                 // Nếu người dùng nhập 1 phép toán kiểm tra biến logicButton
                 if (logicButton == "operation") {
                     // Nếu logicButton = operation không thực hiện gì
@@ -303,6 +319,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btnP:
+                // Kiêm tra nội dung textView Input
+                if (tvOparand.getText() == "Loi") {
+                    break;
+                }
                 // Nếu người dùng nhập "%" kiếm tra biến logicButton
                 if (logicButton == "operation") {
                     // Nếu người dùng nhập sai yêu toast ra thông báo
